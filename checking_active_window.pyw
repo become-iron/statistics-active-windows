@@ -6,7 +6,7 @@ from time import sleep, time
 windows = {}  # {descriptor: [total work time, window name]}
 names = '', 'Пуск', 'ACMON', 'Program Manager'
 descWin = GetForegroundWindow()  # декскриптор последнего активного окна
-pause = 1  # пауза между получением дескрипторов
+pause = 30  # пауза между получением дескрипторов
 shareFile = 'statistics.txt'  # файл обмена
 
 # очистка файла обмена или его создание в случае отсутствия
